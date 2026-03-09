@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modelo de exercício</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Vamos contar</h1>
+        </header>
+
+        <section>
+            <div>
+                <label for="txtini">Início:</label>
+                <input type="number" name="txtini" id="txtini">
+            </div>
+
+            <div>
+                <label for="txtfim">Fim:</label>
+                <input type="number" name="txtfim" id="txtfim">
+            </div>
+            
+            <div>
+                <label for="txtpas">Passo:</label>
+                <input type="number" name="txtpas" id="txtpas">
+            </div>
+
+           <input type="button" value="Contar" onclick="contar()">
+
+           <div id="res"></div>
+        </section>
+
+        <footer>
+            <p>&copy; Isaque A.P.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
