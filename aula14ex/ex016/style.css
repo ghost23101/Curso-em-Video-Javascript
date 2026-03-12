@@ -46,6 +46,10 @@ section label{
     margin-top: 10px;
 }
 
+#res{
+    font-size: 1.6rem;
+}
+
 footer{
     color: white;
     text-align: center;
